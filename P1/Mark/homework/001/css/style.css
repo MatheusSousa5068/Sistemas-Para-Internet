@@ -50,7 +50,7 @@ h2 a:visited {
     color: lightskyblue;
 }
 
-h1:hover > a,
-h2:hover > a {
+h1:hover a,
+h2:hover a {
     color: darkblue;
 }
