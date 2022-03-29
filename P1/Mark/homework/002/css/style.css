@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+
+body {
+    color: darkslategray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+/* Estilos de classes */
+.text-center {
+    text-align: center;
+}
+
+/* Estilo de tags */
+h1 {
+    font-family: 'Audiowide', cursive;
+    font-size: 30px;
+}
+
+#pfp {
+    width: 100px;
+}
+
+h2 {
+    font-size: 24px;
+    background-color: lightskyblue;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* O estilos abaixo são comuns para mais de um elemento */
+h1,
+h2,
+a,
+a:visited {
+    color: darkblue;
+}
+
+h1 a,
+h1 a:visited {
+    color: white;
+}
+
+h2 a,
+h2 a:visited {
+    color: lightskyblue;
+}
+
+h1:hover a,
+h2:hover a {
+    color: darkblue;
+}
+
+
+/* styles dos icons */
+span {
+    font-size: 1rem !important;
+    line-height: 1.5rem !important;
+}
+
+#social > a {
+    font-size: 2rem;
+}
+
+.fa-facebook-square {
+    color: navy;
+}
+
+.fa-twitter-square {
+    color: dodgerblue;
+}
+
+.fa-linkedin-square {
+    color: navy;
+}
+
+.btn {
+    font-size: 1.3rem;
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: darkblue;
+    text-decoration: none;
+}
+
+/* Para impressão */
+@media print {
+    body, h1 {
+        color: #000;
+        font-family: Times, serif;
+    }
+
+    #elon {
+        text-align: left;
+    }
+
+    h2 {
+        background: unset;
+    }
+
+    a.topo {
+        color: #fff;
+    }
+}
